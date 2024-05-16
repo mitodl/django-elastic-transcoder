@@ -15,7 +15,7 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        "django >= 1.8",
+        "django >= 4.2",
         "boto3 >= 1.1",
     ],
     classifiers=[

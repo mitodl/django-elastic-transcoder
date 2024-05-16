@@ -1,5 +1,5 @@
 from django.dispatch import Signal
 
-transcode_onprogress = Signal(providing_args=["job", "message"])
-transcode_onerror = Signal(providing_args=["job", "message"])
-transcode_oncomplete = Signal(providing_args=["job", "message"])
+transcode_onprogress = Signal()
+transcode_onerror = Signal()
+transcode_oncomplete = Signal()
